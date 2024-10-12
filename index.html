@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Belajar Fisika</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTTXABt1tN3+8eX1HXt+Q4e1C5LlA4K+WjbvYIh5wCzS1wq7GkXJw3uG6G/QG9e7+/FSeh23HA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>FisikaMudah</h1>
+            </div>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#courses">Kursus</a></li>
+                    <li><a href="#resources">Sumber Daya</a></li>
+                    <li><a href="#quiz">Kuis</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Selamat Datang di Platform Belajar Fisika</h2>
+            <p>Membuat belajar fisika menjadi mudah dan menyenangkan!</p>
+            <a href="#courses" class="btn">Mulai Belajar</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Kursus Kami</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <i class="fas fa-atom fa-3x"></i>
+                    <h3>Fisika Dasar</h3>
+                    <p>Pemahaman dasar tentang konsep fisika.</p>
+                    <a href="#" class="btn">Pelajari Lebih Lanjut</a>
+                </div>
+                <div class="course-card">
+                    <i class="fas fa-wind fa-3x"></i>
+                    <h3>Fisika Lanjutan</h3>
+                    <p>Menggali lebih dalam konsep fisika tingkat lanjut.</p>
+                    <a href="#" class="btn">Pelajari Lebih Lanjut</a>
+                </div>
+                <div class="course-card">
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>Fisika Terapan</h3>
+                    <p>Aplikasi fisika dalam kehidupan sehari-hari.</p>
+                    <a href="#" class="btn">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources">
+        <div class="container">
+            <h2>Sumber Daya</h2>
+            <div class="resource-grid">
+                <div class="resource-item">
+                    <i class="fas fa-book fa-2x"></i>
+                    <h3>E-Books</h3>
+                    <p>Download e-books fisika gratis untuk mendukung belajar kamu.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+                <div class="resource-item">
+                    <i class="fas fa-video fa-2x"></i>
+                    <h3>Video Pembelajaran</h3>
+                    <p>Tonton video pembelajaran yang menjelaskan konsep fisika secara visual.</p>
+                    <a href="#" class="btn">Tonton Sekarang</a>
+                </div>
+                <div class="resource-item">
+                    <i class="fas fa-podcast fa-2x"></i>
+                    <h3>Podcast</h3>
+                    <p>Dengarkan podcast tentang topik-topik menarik di dunia fisika.</p>
+                    <a href="#" class="btn">Dengarkan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz">
+        <div class="container">
+            <h2>Kuis Fisika</h2>
+            <div class="quiz-container">
+                <div id="quiz-question">
+                    <p>Loading question...</p>
+                </div>
+                <div id="quiz-options">
+                    <!-- Options akan dimuat di sini -->
+                </div>
+                <button id="next-btn" class="btn">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="message" placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FisikaMudah. Semua hak dilindungi.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
