@@ -10,7 +10,7 @@ hamburger.addEventListener('click', () => {
 const quizData = [
     {
         question: "Apa hukum Newton pertama?",
-        options: ["Hukum Inersia", "Hukum Aksi dan Reaksi", "Hukum Gravitasi", "Hukum Termodinamika"],
+        options: ["Hukum Inersia", "Hukum Aksi dan Reaksi", "Hukum Gravitasi", "Fisika Kuantum"],
         answer: "Hukum Inersia"
     },
     {
