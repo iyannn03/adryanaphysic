@@ -96,7 +96,7 @@ nav ul li a:hover {
 
 .btn {
     display: inline-block;
-    background: #ff6600;
+    background: #6e94ce;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -105,7 +105,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background: #e65c00;
+    background: #7573f8;
 }
 
 /* Courses Section */
@@ -142,7 +142,7 @@ nav ul li a:hover {
 }
 
 .course-card i {
-    color: #ff6600;
+    color: #6394f0;
     margin-bottom: 15px;
 }
 
